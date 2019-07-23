@@ -15,7 +15,40 @@ A collection of files that can be used for the macros can be extracted from the 
 
 * You must be using a recent version of [CERN's ROOT software](https://root.cern.ch/). The macros were written with ROOT v5.34.36 but later versions can be used
 * You must be using a recent version of [NUISANCE](https://nuisance.hepforge.org/)
-* Given trees in zipped file are generated using the [GENIE-MC](http://www.genie-mc.org/) with version 2-12-2. If these are not used, you have to generate your own
+* Trees used for the comparisons were generated using the [GENIE-MC](http://www.genie-mc.org/) with version 2-12-2 and NEUT. If you want to make the same comparisons, you will have to generate your own files or download them from [here](include dropbox link here)
+
+## Notes
+
+You will find that some of the files are written with specific events laballed. Below is a table of all the configurations that was run with the scripts
+| Generator | Energy (GeV) | Target | Scattering Mode |
+| GENIE | 1.1 | Ar | Neutrino Scattering |
+| GENIE | 2.261 | Ar | Neutrino Scattering |
+| GENIE | 3.3 | Ar | Neutrino Scattering |
+| GENIE | 4.4 | Ar | Neutrino Scattering |
+| GENIE | 1.1 | Ar | Electron Scattering |
+| GENIE | 2.261 | Ar | Electron Scattering |
+| GENIE | 3.3 | Ar | Electron Scattering |
+| GENIE | 4.4 | Ar | Electron Scattering |
+| GENIE | 1.1 | Fe | Neutrino Scattering |
+| GENIE | 2.261 | Fe | Neutrino Scattering |
+| GENIE | 3.3 | Fe | Neutrino Scattering |
+| GENIE | 4.4 | Fe | Neutrino Scattering |
+| GENIE | 1.1 | Fe | Electron Scattering |
+| GENIE | 2.261 | Fe | Electron Scattering |
+| GENIE | 3.3 | Fe | Electron Scattering |
+| GENIE | 4.4 | Fe | Electron Scattering |
+| GENIE | 2.261 | C-12 | Neutrino Scattering |
+| GENIE | 4.4 | C-12 | Neutrino Scattering |
+| NEUT | 1.1 | Ar | Neutrino Scattering |
+| NEUT | 2.261 | Ar | Neutrino Scattering |
+| NEUT | 3.3 | Ar | Neutrino Scattering |
+| NEUT | 4.4 | Ar | Neutrino Scattering |
+| NEUT | 1.1 | Fe | Neutrino Scattering |
+| NEUT | 2.261 | Fe | Neutrino Scattering |
+| NEUT | 3.3 | Fe | Neutrino Scattering |
+| NEUT | 4.4 | Fe | Neutrino Scattering |
+| NEUT | 1.1 | C-12 | Neutrino Scattering |
+| NEUT | 2.261 | C-12 | Neutrino Scattering |
 
 ## Debugging
 

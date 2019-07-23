@@ -1,0 +1,13 @@
+<nuisance>
+
+  <sample name="CLAS6AcceptanceSummaryTree" input="GENIE:/home/pontinic/GENIEescatcomps/gevgens/gevgen_1.1_nu_Fe.root" >
+<!--    <CLASAccepter name="CLAS6" map="eg2_maps_12C_E_4_461.root">
+      <accept PDG="11" accepted="solid_e_acc" generated="solid_e_gen" />
+      <accept PDG="13" accepted="solid_p_acc" generated="solid_p_gen" />
+      <accept PDG="2212" accepted="solid_p_acc" generated="solid_p_gen" />
+      <accept PDG="221" accepted="solid_p_acc" generated="solid_p_gen" />
+      <accept PDG="-221" accepted="solid_p_acc" generated="solid_p_gen" />
+    </CLASAccepter> -->
+  </sample>
+
+</nuisance>
