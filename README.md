@@ -15,7 +15,7 @@ A collection of files that can be used for the macros can be extracted from the 
 
 * You must be using a recent version of [CERN's ROOT software](https://root.cern.ch/). The macros were written with ROOT v5.34.36 but later versions can be used
 * You must be using a recent version of [NUISANCE](https://nuisance.hepforge.org/)
-* Trees used for the comparisons were generated using the [GENIE-MC](http://www.genie-mc.org/) with version 2-12-2 and NEUT. If you want to make the same comparisons, you will have to generate your own files or download them from [here](include dropbox link here)
+* Trees used for the comparisons were generated using the [GENIE-MC](http://www.genie-mc.org/) with version 2-12-2 and NEUT. If you want to make the same comparisons, you will have to generate your own files or download them from [here](https://www.dropbox.com/s/uso9qugp32t6di7/CLAS6gens.zip?dl=0)
 
 ## Notes
 
@@ -30,7 +30,7 @@ You will find that some of the files are written with specific events laballed. 
 | GENIE | 2.261, 4.4 | C-12 | Neutrino Scattering |
 | NEUT | 1.1, 2.261, 3.3, 4.4 | Ar | Neutrino Scattering |
 | NEUT | 1.1, 2.261, 3.3, 4.4 | Fe | Neutrino Scattering |
-| NEUT | 1.1, 2.261 | C-12 | Neutrino Scattering |
+| NEUT | 2.261, 4.4 | C-12 | Neutrino Scattering |
 
 ## Debugging
 
